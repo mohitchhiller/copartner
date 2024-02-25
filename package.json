@@ -1,10 +1,13 @@
 {
+  "homepage": "https://mohitchhiller.github.io/copartner",
   "name": "sampleproject",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel index.html"
+    "start": "npx parcel index.html",
+    "predeploy": "npx parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "author": "mohit",
   "license": "ISC",
@@ -15,6 +18,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.11.0",
+    "gh-pages": "^6.1.1",
     "process": "^0.11.10"
   }
 }
