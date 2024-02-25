@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #06030e;
+  color: #cccccc;
+}
+
+.op80 {
+  color: #cccccc;
+  opacity: 80%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.font13 {
+  font-size: 0.85rem;
+}
+
+.referBtn {
+  border-radius: 2rem;
+  border: 2px solid;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.loginBtn {
+  background: #FFFFFF0D;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.navList {
+  .navItem:hover {
+    color: #fff;
+  }
+}
+
+.main_container {
+  padding: 8rem 0;
+  background: url(/assets/images/circle.svg), radial-gradient(ellipse, #08143A, #0B1B38, #06030e, #06030e, #06030e), ;
+  // background: url(/assets/images/featuringBG.png);
+  // background: url(/assets/images/circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .circle {
+    height: 40rem;
+    width: 40rem;
+    padding: 6rem;
+    border: 1px dashed #ffffff1a;
+    border-radius: 50%;
+    outline: 1px dashed #ffffff1a;
+    outline-offset: 4rem;
+    position: relative;
+
+    .innerCircle {
+      // content: "";
+      border: 1px dashed #ffffff1a;
+      border-radius: 50%;
+      width: calc(100% - 8rem);
+      height: calc(100% - 8rem);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.arrowBtn {
+  color: #FF9217;
+  background: linear-gradient(90.33deg, rgba(251, 137, 32, 0.14) 0%, rgba(255, 77, 1, 0.106) 100%);
+  border-radius: 2rem;
+}
+
+.featuringText {
+  font-size: 5rem;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(94.34deg, #FFFFFF 0%, #9BD0F5 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.featuringDesc {
+  font-weight: 500;
+}
+
+.footer_container {
+  padding: 4rem 8rem;
+  border-top: 1px solid #1f1a30;
+
+  .productList {
+    list-style: none;
+    padding: 0;
+
+    li {
+      color: #cccccc;
+      opacity: 80%;
+      font-size: .85rem;
+      padding: .25rem 0;
+    }
+  }
+}
+
+.trustedByContainer {
+  padding-bottom: 5rem;
+}
+
+
+.aboutProductHeading {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(135deg, #FFFFFF 0%, #71717A 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.infoContainer {
+  max-width: 25rem;
+
+  .subHeading {
+    color: #56C2FF;
+  }
+}
